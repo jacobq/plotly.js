@@ -165,13 +165,12 @@
                     "legend",
                     "ticks",
                     "axrange",
-                    "margins",
                     "layoutstyle",
                     "modebar",
                     "camera",
                     "arraydraw"
                 ],
-                "description": "layout attributes should include an `editType` string matching this flaglist. *calc* is the most extensive: a full `Plotly.plot` starting by clearing `gd.calcdata` to force it to be regenerated *calcIfAutorange* does a full `Plotly.plot`, but only clears and redoes `gd.calcdata` if there is at least one autoranged axis. *plot* calls `Plotly.plot` but without first clearing `gd.calcdata`. *legend* only redraws the legend. *ticks* only redraws axis ticks, labels, and gridlines. *margins* recomputes ticklabel automargins. *axrange* minimal sequence when updating axis ranges. *layoutstyle* reapplies global and SVG cartesian axis styles. *modebar* just updates the modebar. *camera* just updates the camera settings for gl3d scenes. *arraydraw* allows component arrays to invoke the redraw routines just for the component(s) that changed."
+                "description": "layout attributes should include an `editType` string matching this flaglist. *calc* is the most extensive: a full `Plotly.plot` starting by clearing `gd.calcdata` to force it to be regenerated *calcIfAutorange* does a full `Plotly.plot`, but only clears and redoes `gd.calcdata` if there is at least one autoranged axis. *plot* calls `Plotly.plot` but without first clearing `gd.calcdata`. *legend* only redraws the legend. *ticks* only redraws axis ticks, labels, and gridlines. *axrange* minimal sequence when updating axis ranges. *layoutstyle* reapplies global and SVG cartesian axis styles. *modebar* just updates the modebar. *camera* just updates the camera settings for gl3d scenes. *arraydraw* allows component arrays to invoke the redraw routines just for the component(s) that changed."
             }
         },
         "impliedEdits": {
@@ -229,8 +228,7 @@
                 "uid": {
                     "valType": "string",
                     "role": "info",
-                    "dflt": "",
-                    "editType": "calc"
+                    "editType": "plot"
                 },
                 "ids": {
                     "valType": "data_array",
@@ -2115,8 +2113,7 @@
                 "uid": {
                     "valType": "string",
                     "role": "info",
-                    "dflt": "",
-                    "editType": "calc"
+                    "editType": "plot"
                 },
                 "ids": {
                     "valType": "data_array",
@@ -3693,8 +3690,7 @@
                 "uid": {
                     "valType": "string",
                     "role": "info",
-                    "dflt": "",
-                    "editType": "calc"
+                    "editType": "plot"
                 },
                 "ids": {
                     "valType": "data_array",
@@ -4603,8 +4599,7 @@
                 "uid": {
                     "valType": "string",
                     "role": "info",
-                    "dflt": "",
-                    "editType": "calc"
+                    "editType": "plot"
                 },
                 "ids": {
                     "valType": "data_array",
@@ -5548,8 +5543,7 @@
                 "uid": {
                     "valType": "string",
                     "role": "info",
-                    "dflt": "",
-                    "editType": "calc"
+                    "editType": "plot"
                 },
                 "ids": {
                     "valType": "data_array",
@@ -7013,8 +7007,7 @@
                 "uid": {
                     "valType": "string",
                     "role": "info",
-                    "dflt": "",
-                    "editType": "calc"
+                    "editType": "plot"
                 },
                 "ids": {
                     "valType": "data_array",
@@ -8019,8 +8012,7 @@
                 "uid": {
                     "valType": "string",
                     "role": "info",
-                    "dflt": "",
-                    "editType": "calc"
+                    "editType": "plot"
                 },
                 "ids": {
                     "valType": "data_array",
@@ -9191,8 +9183,7 @@
                 "uid": {
                     "valType": "string",
                     "role": "info",
-                    "dflt": "",
-                    "editType": "calc"
+                    "editType": "plot"
                 },
                 "ids": {
                     "valType": "data_array",
@@ -9782,8 +9773,7 @@
                 "uid": {
                     "valType": "string",
                     "role": "info",
-                    "dflt": "",
-                    "editType": "calc"
+                    "editType": "plot"
                 },
                 "ids": {
                     "valType": "data_array",
@@ -10901,8 +10891,7 @@
                 "uid": {
                     "valType": "string",
                     "role": "info",
-                    "dflt": "",
-                    "editType": "calc"
+                    "editType": "plot"
                 },
                 "ids": {
                     "valType": "data_array",
@@ -12457,8 +12446,7 @@
                 "uid": {
                     "valType": "string",
                     "role": "info",
-                    "dflt": "",
-                    "editType": "calc"
+                    "editType": "plot"
                 },
                 "ids": {
                     "valType": "data_array",
@@ -13418,8 +13406,7 @@
                 "uid": {
                     "valType": "string",
                     "role": "info",
-                    "dflt": "",
-                    "editType": "calc"
+                    "editType": "plot"
                 },
                 "ids": {
                     "valType": "data_array",
@@ -15094,8 +15081,7 @@
                 "uid": {
                     "valType": "string",
                     "role": "info",
-                    "dflt": "",
-                    "editType": "calc"
+                    "editType": "plot"
                 },
                 "ids": {
                     "valType": "data_array",
@@ -16323,8 +16309,7 @@
                 "uid": {
                     "valType": "string",
                     "role": "info",
-                    "dflt": "",
-                    "editType": "calc"
+                    "editType": "plot"
                 },
                 "ids": {
                     "valType": "data_array",
@@ -17402,8 +17387,7 @@
                 "uid": {
                     "valType": "string",
                     "role": "info",
-                    "dflt": "",
-                    "editType": "calc"
+                    "editType": "plot"
                 },
                 "ids": {
                     "valType": "data_array",
@@ -18347,8 +18331,7 @@
                 "uid": {
                     "valType": "string",
                     "role": "info",
-                    "dflt": "",
-                    "editType": "calc"
+                    "editType": "plot"
                 },
                 "ids": {
                     "valType": "data_array",
@@ -19861,8 +19844,7 @@
                 "uid": {
                     "valType": "string",
                     "role": "info",
-                    "dflt": "",
-                    "editType": "calc"
+                    "editType": "plot"
                 },
                 "ids": {
                     "valType": "data_array",
@@ -20721,8 +20703,7 @@
                 "uid": {
                     "valType": "string",
                     "role": "info",
-                    "dflt": "",
-                    "editType": "calc"
+                    "editType": "plot"
                 },
                 "ids": {
                     "valType": "data_array",
@@ -22395,8 +22376,7 @@
                 "uid": {
                     "valType": "string",
                     "role": "info",
-                    "dflt": "",
-                    "editType": "calc"
+                    "editType": "plot"
                 },
                 "ids": {
                     "valType": "data_array",
@@ -23724,8 +23704,7 @@
                 "uid": {
                     "valType": "string",
                     "role": "info",
-                    "dflt": "",
-                    "editType": "calc"
+                    "editType": "plot"
                 },
                 "ids": {
                     "valType": "data_array",
@@ -24120,8 +24099,7 @@
                 "uid": {
                     "valType": "string",
                     "role": "info",
-                    "dflt": "",
-                    "editType": "calc"
+                    "editType": "plot"
                 },
                 "ids": {
                     "valType": "data_array",
@@ -24973,8 +24951,7 @@
                 "uid": {
                     "valType": "string",
                     "role": "info",
-                    "dflt": "",
-                    "editType": "calc"
+                    "editType": "plot"
                 },
                 "ids": {
                     "valType": "data_array",
@@ -26026,8 +26003,7 @@
                 "uid": {
                     "valType": "string",
                     "role": "info",
-                    "dflt": "",
-                    "editType": "calc"
+                    "editType": "plot"
                 },
                 "ids": {
                     "valType": "data_array",
@@ -27049,8 +27025,7 @@
                 "uid": {
                     "valType": "string",
                     "role": "info",
-                    "dflt": "",
-                    "editType": "calc"
+                    "editType": "plot"
                 },
                 "ids": {
                     "valType": "data_array",
@@ -27595,8 +27570,7 @@
                 "uid": {
                     "valType": "string",
                     "role": "info",
-                    "dflt": "",
-                    "editType": "calc"
+                    "editType": "plot"
                 },
                 "ids": {
                     "valType": "data_array",
@@ -28275,8 +28249,7 @@
                 "uid": {
                     "valType": "string",
                     "role": "info",
-                    "dflt": "",
-                    "editType": "calc"
+                    "editType": "plot"
                 },
                 "ids": {
                     "valType": "data_array",
@@ -29656,8 +29629,7 @@
                 "uid": {
                     "valType": "string",
                     "role": "info",
-                    "dflt": "",
-                    "editType": "calc"
+                    "editType": "plot"
                 },
                 "ids": {
                     "valType": "data_array",
@@ -31185,8 +31157,7 @@
                 "uid": {
                     "valType": "string",
                     "role": "info",
-                    "dflt": "",
-                    "editType": "calc"
+                    "editType": "plot"
                 },
                 "ids": {
                     "valType": "data_array",
@@ -32244,8 +32215,7 @@
                 "uid": {
                     "valType": "string",
                     "role": "info",
-                    "dflt": "",
-                    "editType": "calc"
+                    "editType": "plot"
                 },
                 "ids": {
                     "valType": "data_array",
@@ -32700,8 +32670,7 @@
                 "uid": {
                     "valType": "string",
                     "role": "info",
-                    "dflt": "",
-                    "editType": "calc"
+                    "editType": "plot"
                 },
                 "ids": {
                     "valType": "data_array",
@@ -33155,8 +33124,7 @@
                 "uid": {
                     "valType": "string",
                     "role": "info",
-                    "dflt": "",
-                    "editType": "calc"
+                    "editType": "plot"
                 },
                 "ids": {
                     "valType": "data_array",
@@ -34703,8 +34671,7 @@
                 "uid": {
                     "valType": "string",
                     "role": "info",
-                    "dflt": "",
-                    "editType": "calc"
+                    "editType": "plot"
                 },
                 "ids": {
                     "valType": "data_array",
@@ -36096,8 +36063,7 @@
                 "uid": {
                     "valType": "string",
                     "role": "info",
-                    "dflt": "",
-                    "editType": "calc"
+                    "editType": "plot"
                 },
                 "ids": {
                     "valType": "data_array",
@@ -37166,7 +37132,7 @@
                 "title": {
                     "valType": "string",
                     "role": "info",
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "description": "Sets the title of this axis."
                 },
                 "titlefont": {
@@ -37175,21 +37141,21 @@
                         "role": "style",
                         "noBlank": true,
                         "strict": true,
-                        "editType": "ticks+margins",
+                        "editType": "ticks",
                         "description": "HTML font family - the typeface that will be applied by the web browser. The web browser will only be able to apply a font if it is available on the system which it operates. Provide multiple font families, separated by commas, to indicate the preference in which to apply fonts if they aren't available on the system. The plotly service (at https://plot.ly or on-premise) generates images on a server, where only a select number of fonts are installed and supported. These include *Arial*, *Balto*, *Courier New*, *Droid Sans*,, *Droid Serif*, *Droid Sans Mono*, *Gravitas One*, *Old Standard TT*, *Open Sans*, *Overpass*, *PT Sans Narrow*, *Raleway*, *Times New Roman*."
                     },
                     "size": {
                         "valType": "number",
                         "role": "style",
                         "min": 1,
-                        "editType": "ticks+margins"
+                        "editType": "ticks"
                     },
                     "color": {
                         "valType": "color",
                         "role": "style",
-                        "editType": "ticks+margins"
+                        "editType": "ticks"
                     },
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "description": "Sets this axis' title font.",
                     "role": "object"
                 },
@@ -37238,20 +37204,20 @@
                     "items": [
                         {
                             "valType": "any",
-                            "editType": "axrange+margins",
+                            "editType": "axrange",
                             "impliedEdits": {
                                 "^autorange": false
                             }
                         },
                         {
                             "valType": "any",
-                            "editType": "axrange+margins",
+                            "editType": "axrange",
                             "impliedEdits": {
                                 "^autorange": false
                             }
                         }
                     ],
-                    "editType": "axrange+margins",
+                    "editType": "axrange",
                     "impliedEdits": {
                         "autorange": false
                     },
@@ -37315,7 +37281,7 @@
                         "array"
                     ],
                     "role": "info",
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "impliedEdits": {},
                     "description": "Sets the tick mode for this axis. If *auto*, the number of ticks is set via `nticks`. If *linear*, the placement of the ticks is determined by a starting position `tick0` and a tick step `dtick` (*linear* is the default value if `tick0` and `dtick` are provided). If *array*, the placement of the ticks is set via `tickvals` and the tick text is `ticktext`. (*array* is the default value if `tickvals` is provided)."
                 },
@@ -37324,13 +37290,13 @@
                     "min": 0,
                     "dflt": 0,
                     "role": "style",
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "description": "Specifies the maximum number of ticks for the particular axis. The actual number of ticks will be chosen automatically to be less than or equal to `nticks`. Has an effect only if `tickmode` is set to *auto*."
                 },
                 "tick0": {
                     "valType": "any",
                     "role": "style",
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "impliedEdits": {
                         "tickmode": "linear"
                     },
@@ -37339,7 +37305,7 @@
                 "dtick": {
                     "valType": "any",
                     "role": "style",
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "impliedEdits": {
                         "tickmode": "linear"
                     },
@@ -37347,13 +37313,13 @@
                 },
                 "tickvals": {
                     "valType": "data_array",
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "description": "Sets the values at which ticks on this axis appear. Only has an effect if `tickmode` is set to *array*. Used with `ticktext`.",
                     "role": "data"
                 },
                 "ticktext": {
                     "valType": "data_array",
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "description": "Sets the text displayed at the ticks position via `tickvals`. Only has an effect if `tickmode` is set to *array*. Used with `tickvals`.",
                     "role": "data"
                 },
@@ -37365,7 +37331,7 @@
                         ""
                     ],
                     "role": "style",
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "description": "Determines whether ticks are drawn or not. If **, this axis' ticks are not drawn. If *outside* (*inside*), this axis' are drawn outside (inside) the axis lines."
                 },
                 "mirror": {
@@ -37409,14 +37375,14 @@
                     "valType": "boolean",
                     "dflt": true,
                     "role": "style",
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "description": "Determines whether or not the tick labels are drawn."
                 },
                 "automargin": {
                     "valType": "boolean",
                     "dflt": false,
                     "role": "style",
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "description": "Determines whether long tick labels automatically grow the figure margins."
                 },
                 "showspikes": {
@@ -37484,21 +37450,21 @@
                         "role": "style",
                         "noBlank": true,
                         "strict": true,
-                        "editType": "ticks+margins",
+                        "editType": "ticks",
                         "description": "HTML font family - the typeface that will be applied by the web browser. The web browser will only be able to apply a font if it is available on the system which it operates. Provide multiple font families, separated by commas, to indicate the preference in which to apply fonts if they aren't available on the system. The plotly service (at https://plot.ly or on-premise) generates images on a server, where only a select number of fonts are installed and supported. These include *Arial*, *Balto*, *Courier New*, *Droid Sans*,, *Droid Serif*, *Droid Sans Mono*, *Gravitas One*, *Old Standard TT*, *Open Sans*, *Overpass*, *PT Sans Narrow*, *Raleway*, *Times New Roman*."
                     },
                     "size": {
                         "valType": "number",
                         "role": "style",
                         "min": 1,
-                        "editType": "ticks+margins"
+                        "editType": "ticks"
                     },
                     "color": {
                         "valType": "color",
                         "role": "style",
-                        "editType": "ticks+margins"
+                        "editType": "ticks"
                     },
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "description": "Sets the tick font.",
                     "role": "object"
                 },
@@ -37506,14 +37472,14 @@
                     "valType": "angle",
                     "dflt": "auto",
                     "role": "style",
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "description": "Sets the angle of the tick labels with respect to the horizontal. For example, a `tickangle` of -90 draws the tick labels vertically."
                 },
                 "tickprefix": {
                     "valType": "string",
                     "dflt": "",
                     "role": "style",
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "description": "Sets a tick label prefix."
                 },
                 "showtickprefix": {
@@ -37526,14 +37492,14 @@
                     ],
                     "dflt": "all",
                     "role": "style",
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "description": "If *all*, all tick labels are displayed with a prefix. If *first*, only the first tick is displayed with a prefix. If *last*, only the last tick is displayed with a suffix. If *none*, tick prefixes are hidden."
                 },
                 "ticksuffix": {
                     "valType": "string",
                     "dflt": "",
                     "role": "style",
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "description": "Sets a tick label suffix."
                 },
                 "showticksuffix": {
@@ -37546,7 +37512,7 @@
                     ],
                     "dflt": "all",
                     "role": "style",
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "description": "Same as `showtickprefix` but for tick suffixes."
                 },
                 "showexponent": {
@@ -37559,7 +37525,7 @@
                     ],
                     "dflt": "all",
                     "role": "style",
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "description": "If *all*, all exponents are shown besides their significands. If *first*, only the exponent of the first tick is shown. If *last*, only the exponent of the last tick is shown. If *none*, no exponents appear."
                 },
                 "exponentformat": {
@@ -37574,21 +37540,21 @@
                     ],
                     "dflt": "B",
                     "role": "style",
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "description": "Determines a formatting rule for the tick exponents. For example, consider the number 1,000,000,000. If *none*, it appears as 1,000,000,000. If *e*, 1e+9. If *E*, 1E+9. If *power*, 1x10^9 (with 9 in a super script). If *SI*, 1G. If *B*, 1B."
                 },
                 "separatethousands": {
                     "valType": "boolean",
                     "dflt": false,
                     "role": "style",
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "description": "If \"true\", even 4-digit integers are separated"
                 },
                 "tickformat": {
                     "valType": "string",
                     "dflt": "",
                     "role": "style",
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "description": "Sets the tick label formatting rule using d3 formatting mini-languages which are very similar to those in Python. For numbers, see: https://github.com/d3/d3-format/blob/master/README.md#locale_format And for dates see: https://github.com/d3/d3-time-format/blob/master/README.md#locale_format We add one item to d3's date formatter: *%{n}f* for fractional seconds with n digits. For example, *2016-10-13 09:15:23.456* with tickformat *%H~%M~%S.%2f* would display *09~15~23.46*"
                 },
                 "tickformatstops": {
@@ -37600,24 +37566,24 @@
                                 "items": [
                                     {
                                         "valType": "any",
-                                        "editType": "ticks+margins"
+                                        "editType": "ticks"
                                     },
                                     {
                                         "valType": "any",
-                                        "editType": "ticks+margins"
+                                        "editType": "ticks"
                                     }
                                 ],
-                                "editType": "ticks+margins",
+                                "editType": "ticks",
                                 "description": "range [*min*, *max*], where *min*, *max* - dtick values which describe some zoom level, it is possible to omit *min* or *max* value by passing *null*"
                             },
                             "value": {
                                 "valType": "string",
                                 "dflt": "",
                                 "role": "style",
-                                "editType": "ticks+margins",
+                                "editType": "ticks",
                                 "description": "string - dtickformat for described zoom level, the same as *tickformat*"
                             },
-                            "editType": "ticks+margins",
+                            "editType": "ticks",
                             "role": "object"
                         }
                     },
@@ -37701,7 +37667,7 @@
                         "/^y([2-9]|[1-9][0-9]+)?$/"
                     ],
                     "role": "info",
-                    "editType": "plot+margins",
+                    "editType": "plot",
                     "description": "If set to an opposite-letter axis id (e.g. `x2`, `y`), this axis is bound to the corresponding opposite-letter axis. If set to *free*, this axis' position is determined by `position`."
                 },
                 "side": {
@@ -37713,7 +37679,7 @@
                         "right"
                     ],
                     "role": "info",
-                    "editType": "plot+margins",
+                    "editType": "plot",
                     "description": "Determines whether a x (y) axis is positioned at the *bottom* (*left*) or *top* (*right*) of the plotting area."
                 },
                 "overlaying": {
@@ -37746,20 +37712,20 @@
                             "valType": "number",
                             "min": 0,
                             "max": 1,
-                            "editType": "plot+margins"
+                            "editType": "plot"
                         },
                         {
                             "valType": "number",
                             "min": 0,
                             "max": 1,
-                            "editType": "plot+margins"
+                            "editType": "plot"
                         }
                     ],
                     "dflt": [
                         0,
                         1
                     ],
-                    "editType": "plot+margins",
+                    "editType": "plot",
                     "description": "Sets the domain of this axis (in plot fraction)."
                 },
                 "position": {
@@ -37768,7 +37734,7 @@
                     "max": 1,
                     "dflt": 0,
                     "role": "style",
-                    "editType": "plot+margins",
+                    "editType": "plot",
                     "description": "Sets the position of this axis in the plotting space (in normalized coordinates). Only has an effect if `anchor` is set to *free*."
                 },
                 "categoryorder": {
@@ -37795,7 +37761,7 @@
                     "autotick": {
                         "valType": "boolean",
                         "role": "info",
-                        "editType": "ticks+margins",
+                        "editType": "ticks",
                         "description": "Obsolete. Set `tickmode` to *auto* for old `autotick` *true* behavior. Set `tickmode` to *linear* for `autotick` *false*."
                     }
                 },
@@ -38125,7 +38091,7 @@
                 "title": {
                     "valType": "string",
                     "role": "info",
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "description": "Sets the title of this axis."
                 },
                 "titlefont": {
@@ -38134,21 +38100,21 @@
                         "role": "style",
                         "noBlank": true,
                         "strict": true,
-                        "editType": "ticks+margins",
+                        "editType": "ticks",
                         "description": "HTML font family - the typeface that will be applied by the web browser. The web browser will only be able to apply a font if it is available on the system which it operates. Provide multiple font families, separated by commas, to indicate the preference in which to apply fonts if they aren't available on the system. The plotly service (at https://plot.ly or on-premise) generates images on a server, where only a select number of fonts are installed and supported. These include *Arial*, *Balto*, *Courier New*, *Droid Sans*,, *Droid Serif*, *Droid Sans Mono*, *Gravitas One*, *Old Standard TT*, *Open Sans*, *Overpass*, *PT Sans Narrow*, *Raleway*, *Times New Roman*."
                     },
                     "size": {
                         "valType": "number",
                         "role": "style",
                         "min": 1,
-                        "editType": "ticks+margins"
+                        "editType": "ticks"
                     },
                     "color": {
                         "valType": "color",
                         "role": "style",
-                        "editType": "ticks+margins"
+                        "editType": "ticks"
                     },
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "description": "Sets this axis' title font.",
                     "role": "object"
                 },
@@ -38197,20 +38163,20 @@
                     "items": [
                         {
                             "valType": "any",
-                            "editType": "axrange+margins",
+                            "editType": "axrange",
                             "impliedEdits": {
                                 "^autorange": false
                             }
                         },
                         {
                             "valType": "any",
-                            "editType": "axrange+margins",
+                            "editType": "axrange",
                             "impliedEdits": {
                                 "^autorange": false
                             }
                         }
                     ],
-                    "editType": "axrange+margins",
+                    "editType": "axrange",
                     "impliedEdits": {
                         "autorange": false
                     },
@@ -38274,7 +38240,7 @@
                         "array"
                     ],
                     "role": "info",
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "impliedEdits": {},
                     "description": "Sets the tick mode for this axis. If *auto*, the number of ticks is set via `nticks`. If *linear*, the placement of the ticks is determined by a starting position `tick0` and a tick step `dtick` (*linear* is the default value if `tick0` and `dtick` are provided). If *array*, the placement of the ticks is set via `tickvals` and the tick text is `ticktext`. (*array* is the default value if `tickvals` is provided)."
                 },
@@ -38283,13 +38249,13 @@
                     "min": 0,
                     "dflt": 0,
                     "role": "style",
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "description": "Specifies the maximum number of ticks for the particular axis. The actual number of ticks will be chosen automatically to be less than or equal to `nticks`. Has an effect only if `tickmode` is set to *auto*."
                 },
                 "tick0": {
                     "valType": "any",
                     "role": "style",
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "impliedEdits": {
                         "tickmode": "linear"
                     },
@@ -38298,7 +38264,7 @@
                 "dtick": {
                     "valType": "any",
                     "role": "style",
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "impliedEdits": {
                         "tickmode": "linear"
                     },
@@ -38306,13 +38272,13 @@
                 },
                 "tickvals": {
                     "valType": "data_array",
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "description": "Sets the values at which ticks on this axis appear. Only has an effect if `tickmode` is set to *array*. Used with `ticktext`.",
                     "role": "data"
                 },
                 "ticktext": {
                     "valType": "data_array",
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "description": "Sets the text displayed at the ticks position via `tickvals`. Only has an effect if `tickmode` is set to *array*. Used with `tickvals`.",
                     "role": "data"
                 },
@@ -38324,7 +38290,7 @@
                         ""
                     ],
                     "role": "style",
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "description": "Determines whether ticks are drawn or not. If **, this axis' ticks are not drawn. If *outside* (*inside*), this axis' are drawn outside (inside) the axis lines."
                 },
                 "mirror": {
@@ -38368,14 +38334,14 @@
                     "valType": "boolean",
                     "dflt": true,
                     "role": "style",
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "description": "Determines whether or not the tick labels are drawn."
                 },
                 "automargin": {
                     "valType": "boolean",
                     "dflt": false,
                     "role": "style",
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "description": "Determines whether long tick labels automatically grow the figure margins."
                 },
                 "showspikes": {
@@ -38443,21 +38409,21 @@
                         "role": "style",
                         "noBlank": true,
                         "strict": true,
-                        "editType": "ticks+margins",
+                        "editType": "ticks",
                         "description": "HTML font family - the typeface that will be applied by the web browser. The web browser will only be able to apply a font if it is available on the system which it operates. Provide multiple font families, separated by commas, to indicate the preference in which to apply fonts if they aren't available on the system. The plotly service (at https://plot.ly or on-premise) generates images on a server, where only a select number of fonts are installed and supported. These include *Arial*, *Balto*, *Courier New*, *Droid Sans*,, *Droid Serif*, *Droid Sans Mono*, *Gravitas One*, *Old Standard TT*, *Open Sans*, *Overpass*, *PT Sans Narrow*, *Raleway*, *Times New Roman*."
                     },
                     "size": {
                         "valType": "number",
                         "role": "style",
                         "min": 1,
-                        "editType": "ticks+margins"
+                        "editType": "ticks"
                     },
                     "color": {
                         "valType": "color",
                         "role": "style",
-                        "editType": "ticks+margins"
+                        "editType": "ticks"
                     },
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "description": "Sets the tick font.",
                     "role": "object"
                 },
@@ -38465,14 +38431,14 @@
                     "valType": "angle",
                     "dflt": "auto",
                     "role": "style",
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "description": "Sets the angle of the tick labels with respect to the horizontal. For example, a `tickangle` of -90 draws the tick labels vertically."
                 },
                 "tickprefix": {
                     "valType": "string",
                     "dflt": "",
                     "role": "style",
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "description": "Sets a tick label prefix."
                 },
                 "showtickprefix": {
@@ -38485,14 +38451,14 @@
                     ],
                     "dflt": "all",
                     "role": "style",
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "description": "If *all*, all tick labels are displayed with a prefix. If *first*, only the first tick is displayed with a prefix. If *last*, only the last tick is displayed with a suffix. If *none*, tick prefixes are hidden."
                 },
                 "ticksuffix": {
                     "valType": "string",
                     "dflt": "",
                     "role": "style",
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "description": "Sets a tick label suffix."
                 },
                 "showticksuffix": {
@@ -38505,7 +38471,7 @@
                     ],
                     "dflt": "all",
                     "role": "style",
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "description": "Same as `showtickprefix` but for tick suffixes."
                 },
                 "showexponent": {
@@ -38518,7 +38484,7 @@
                     ],
                     "dflt": "all",
                     "role": "style",
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "description": "If *all*, all exponents are shown besides their significands. If *first*, only the exponent of the first tick is shown. If *last*, only the exponent of the last tick is shown. If *none*, no exponents appear."
                 },
                 "exponentformat": {
@@ -38533,21 +38499,21 @@
                     ],
                     "dflt": "B",
                     "role": "style",
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "description": "Determines a formatting rule for the tick exponents. For example, consider the number 1,000,000,000. If *none*, it appears as 1,000,000,000. If *e*, 1e+9. If *E*, 1E+9. If *power*, 1x10^9 (with 9 in a super script). If *SI*, 1G. If *B*, 1B."
                 },
                 "separatethousands": {
                     "valType": "boolean",
                     "dflt": false,
                     "role": "style",
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "description": "If \"true\", even 4-digit integers are separated"
                 },
                 "tickformat": {
                     "valType": "string",
                     "dflt": "",
                     "role": "style",
-                    "editType": "ticks+margins",
+                    "editType": "ticks",
                     "description": "Sets the tick label formatting rule using d3 formatting mini-languages which are very similar to those in Python. For numbers, see: https://github.com/d3/d3-format/blob/master/README.md#locale_format And for dates see: https://github.com/d3/d3-time-format/blob/master/README.md#locale_format We add one item to d3's date formatter: *%{n}f* for fractional seconds with n digits. For example, *2016-10-13 09:15:23.456* with tickformat *%H~%M~%S.%2f* would display *09~15~23.46*"
                 },
                 "tickformatstops": {
@@ -38559,24 +38525,24 @@
                                 "items": [
                                     {
                                         "valType": "any",
-                                        "editType": "ticks+margins"
+                                        "editType": "ticks"
                                     },
                                     {
                                         "valType": "any",
-                                        "editType": "ticks+margins"
+                                        "editType": "ticks"
                                     }
                                 ],
-                                "editType": "ticks+margins",
+                                "editType": "ticks",
                                 "description": "range [*min*, *max*], where *min*, *max* - dtick values which describe some zoom level, it is possible to omit *min* or *max* value by passing *null*"
                             },
                             "value": {
                                 "valType": "string",
                                 "dflt": "",
                                 "role": "style",
-                                "editType": "ticks+margins",
+                                "editType": "ticks",
                                 "description": "string - dtickformat for described zoom level, the same as *tickformat*"
                             },
-                            "editType": "ticks+margins",
+                            "editType": "ticks",
                             "role": "object"
                         }
                     },
@@ -38660,7 +38626,7 @@
                         "/^y([2-9]|[1-9][0-9]+)?$/"
                     ],
                     "role": "info",
-                    "editType": "plot+margins",
+                    "editType": "plot",
                     "description": "If set to an opposite-letter axis id (e.g. `x2`, `y`), this axis is bound to the corresponding opposite-letter axis. If set to *free*, this axis' position is determined by `position`."
                 },
                 "side": {
@@ -38672,7 +38638,7 @@
                         "right"
                     ],
                     "role": "info",
-                    "editType": "plot+margins",
+                    "editType": "plot",
                     "description": "Determines whether a x (y) axis is positioned at the *bottom* (*left*) or *top* (*right*) of the plotting area."
                 },
                 "overlaying": {
@@ -38705,20 +38671,20 @@
                             "valType": "number",
                             "min": 0,
                             "max": 1,
-                            "editType": "plot+margins"
+                            "editType": "plot"
                         },
                         {
                             "valType": "number",
                             "min": 0,
                             "max": 1,
-                            "editType": "plot+margins"
+                            "editType": "plot"
                         }
                     ],
                     "dflt": [
                         0,
                         1
                     ],
-                    "editType": "plot+margins",
+                    "editType": "plot",
                     "description": "Sets the domain of this axis (in plot fraction)."
                 },
                 "position": {
@@ -38727,7 +38693,7 @@
                     "max": 1,
                     "dflt": 0,
                     "role": "style",
-                    "editType": "plot+margins",
+                    "editType": "plot",
                     "description": "Sets the position of this axis in the plotting space (in normalized coordinates). Only has an effect if `anchor` is set to *free*."
                 },
                 "categoryorder": {
@@ -38754,7 +38720,7 @@
                     "autotick": {
                         "valType": "boolean",
                         "role": "info",
-                        "editType": "ticks+margins",
+                        "editType": "ticks",
                         "description": "Obsolete. Set `tickmode` to *auto* for old `autotick` *true* behavior. Set `tickmode` to *linear* for `autotick` *false*."
                     }
                 },
@@ -43093,20 +43059,20 @@
                         "items": [
                             {
                                 "valType": "any",
-                                "editType": "axrange+margins",
+                                "editType": "axrange",
                                 "impliedEdits": {
                                     "^autorange": false
                                 }
                             },
                             {
                                 "valType": "any",
-                                "editType": "axrange+margins",
+                                "editType": "axrange",
                                 "impliedEdits": {
                                     "^autorange": false
                                 }
                             }
                         ],
-                        "editType": "axrange+margins",
+                        "editType": "axrange",
                         "impliedEdits": {
                             "autorange": false
                         },
@@ -43929,6 +43895,17 @@
                         "description": "Sets the source reference on plot.ly for  ticktext .",
                         "editType": "none"
                     }
+                },
+                "gridshape": {
+                    "valType": "enumerated",
+                    "values": [
+                        "circular",
+                        "linear"
+                    ],
+                    "dflt": "circular",
+                    "role": "style",
+                    "editType": "plot",
+                    "description": "Determines if the radial axis grid lines and angular axis line are drawn as *circular* sectors or as *linear* (polygon) sectors. Has an effect only when the angular axis has `type` *category*. Note that `radialaxis.angle` is snapped to the angle of the closest vertex when `gridshape` is *circular* (so that radial axis scale is the same as the data scale)."
                 },
                 "editType": "calc",
                 "_isSubplotObj": true,
